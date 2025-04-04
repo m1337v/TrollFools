@@ -10,7 +10,7 @@ import SwiftUI
 
 final class EjectListModel: ObservableObject {
     let app: App
-    private var _injectedPlugIns: [InjectedPlugIn] = []
+    private(set) var injectedPlugIns: [InjectedPlugIn] = []
 
     @Published var filter = FilterOptions()
     @Published var filteredPlugIns: [InjectedPlugIn] = []
@@ -24,21 +24,19 @@ final class EjectListModel: ObservableObject {
         $filter
             .throttle(for: 0.5, scheduler: DispatchQueue.main, latest: true)
             .sink { [weak self] _ in
-                withAnimation {
-                    self?.performFilter()
-                }
+                self?.performFilter()
             }
             .store(in: &cancellables)
     }
 
     func reload() {
-        self._injectedPlugIns = Injector.injectedPlugInURLs(app.url)
+        self.injectedPlugIns = InjectorV3.main.injectedAssetURLsInBundle(app.url)
             .map { InjectedPlugIn(url: $0) }
         performFilter()
     }
 
     func performFilter() {
-        var filteredPlugIns = _injectedPlugIns
+        var filteredPlugIns = injectedPlugIns
 
         if !filter.searchKeyword.isEmpty {
             filteredPlugIns = filteredPlugIns.filter {

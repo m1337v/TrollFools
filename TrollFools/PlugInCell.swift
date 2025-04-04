@@ -5,6 +5,7 @@
 //  Created by 82Flex on 2024/10/30.
 //
 
+import QuickLook
 import SwiftUI
 
 private let gDateFormatter: DateFormatter = {
@@ -17,9 +18,16 @@ private let gDateFormatter: DateFormatter = {
 struct PlugInCell: View {
     @EnvironmentObject var ejectList: EjectListModel
 
+    @Binding var quickLookExport: URL?
+
     let plugIn: InjectedPlugIn
 
-    @available(iOS 15.0, *)
+    init(_ plugIn: InjectedPlugIn, quickLookExport: Binding<URL?>) {
+        self.plugIn = plugIn
+        _quickLookExport = quickLookExport
+    }
+
+    @available(iOS 15, *)
     var highlightedName: AttributedString {
         let name = plugIn.url.lastPathComponent
         var attributedString = AttributedString(name)
@@ -52,7 +60,7 @@ struct PlugInCell: View {
                 .foregroundColor(.accentColor)
 
             VStack(alignment: .leading) {
-                if #available(iOS 15.0, *) {
+                if #available(iOS 15, *) {
                     Text(highlightedName)
                         .font(.headline)
                 } else {
@@ -65,6 +73,18 @@ struct PlugInCell: View {
             }
         }
         .contextMenu {
+            if #available(iOS 16.4, *) {
+                ShareLink(item: plugIn.url) {
+                    Label(NSLocalizedString("Export", comment: ""), systemImage: "square.and.arrow.up")
+                }
+            } else {
+                Button {
+                    exportPlugIn()
+                } label: {
+                    Label(NSLocalizedString("Export", comment: ""), systemImage: "square.and.arrow.up")
+                }
+            }
+
             Button {
                 openInFilza()
             } label: {
@@ -76,6 +96,10 @@ struct PlugInCell: View {
             }
             .disabled(!isFilzaInstalled)
         }
+    }
+
+    private func exportPlugIn() {
+        quickLookExport = plugIn.url
     }
 
     var isFilzaInstalled: Bool { ejectList.app.appList?.isFilzaInstalled ?? false }

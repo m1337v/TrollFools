@@ -1,20 +1,59 @@
 /* No comment provided by engineer. */
 "%@ exited with code %d" = "%@ exited with code %d";
 
+/* StripedTextTableViewController */
+"%@ rows not loaded" = "%@ rows not loaded";
+
 /* No comment provided by engineer. */
 "%@ terminated with signal %d" = "%@ terminated with signal %d";
+
+/* No comment provided by engineer. */
+"%ld Plug-Ins of “%@”" = "%1$ld Plug-Ins of “%2$@”";
 
 /* No comment provided by engineer. */
 "Advanced Settings" = "Advanced Settings";
 
 /* No comment provided by engineer. */
+"Advertisement" = "Advertisement";
+
+/* No comment provided by engineer. */
+"All" = "All";
+
+/* No comment provided by engineer. */
+"All Applications" = "All Applications";
+
+/* No comment provided by engineer. */
 "And %d more unsupported user applications." = "And %d more unsupported user applications.";
+
+/* No comment provided by engineer. */
+"Bringing back the most advanced system and security analysis tool." = "Bringing back the most advanced system and security analysis tool.";
+
+/* StripedTextTableViewController */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Cannot parse text with UTF-8 encoding: “%@”." = "Cannot parse text with UTF-8 encoding: “%@”.";
 
 /* No comment provided by engineer. */
 "Completed" = "Completed";
 
+/* StripedTextTableViewController */
+"Confirm" = "Confirm";
+
+/* No comment provided by engineer. */
+"Continue" = "Continue";
+
+/* No comment provided by engineer. */
+"Continue and Don’t Show Again" = "Continue and Don’t Show Again";
+
+/* StripedTextTableViewController */
+"Copy" = "Copy";
+
 /* No comment provided by engineer. */
 "Copyright" = "Copyright";
+
+/* StripedTextTableViewController */
+"Do you want to clear this log file “%@”?" = "Do you want to clear this log file “%@”?";
 
 /* No comment provided by engineer. */
 "Done" = "Done";
@@ -29,10 +68,19 @@
 "Error" = "Error";
 
 /* No comment provided by engineer. */
+"Export" = "Export";
+
+/* No comment provided by engineer. */
+"Export All" = "Export All";
+
+/* No comment provided by engineer. */
 "Failed" = "Failed";
 
 /* No comment provided by engineer. */
 "Failed to find entry CFBundleExecutable in: %@" = "Failed to find entry CFBundleExecutable in: %@";
+
+/* No comment provided by engineer. */
+"Failed to find entry CFBundleIdentifier in: %@" = "Failed to find entry CFBundleIdentifier in: %@";
 
 /* No comment provided by engineer. */
 "Failed to locate main executable: %@" = "Failed to locate main executable: %@";
@@ -41,7 +89,13 @@
 "Failed to parse: %@" = "Failed to parse: %@";
 
 /* No comment provided by engineer. */
+"Fast" = "Fast";
+
+/* No comment provided by engineer. */
 "Filza (URL Scheme) Not Installed" = "Filza (URL Scheme) Not Installed";
+
+/* No comment provided by engineer. */
+"Hide" = "Hide";
 
 /* No comment provided by engineer. */
 "If you do not know what these options mean, please do not change them." = "If you do not know what these options mean, please do not change them.";
@@ -62,13 +116,28 @@
 "Injection" = "Injection";
 
 /* No comment provided by engineer. */
+"Injection Strategy" = "Injection Strategy";
+
+/* No comment provided by engineer. */
 "Launch" = "Launch";
+
+/* No comment provided by engineer. */
+"Lexicographic" = "Lexicographic";
 
 /* No comment provided by engineer. */
 "Lock Version" = "Lock Version";
 
+/* StripedTextTableViewController */
+"Log Viewer" = "Log Viewer";
+
 /* No comment provided by engineer. */
 "Made with ♥ by OwnGoal Studio" = "Made with ♥ by OwnGoal Studio";
+
+/* No comment provided by engineer. */
+"No Applications" = "No Applications";
+
+/* No comment provided by engineer. */
+"No dylib found in the Debian package." = "No dylib found in the Debian package.";
 
 /* No comment provided by engineer. */
 "No eligible framework found." = "No eligible framework found.";
@@ -83,6 +152,9 @@
 "No valid plug-ins found." = "No valid plug-ins found.";
 
 /* No comment provided by engineer. */
+"Notice" = "Notice";
+
+/* No comment provided by engineer. */
 "Only removable system applications are eligible and listed." = "Only removable system applications are eligible and listed.";
 
 /* No comment provided by engineer. */
@@ -95,16 +167,31 @@
 "Plug-Ins" = "Plug-Ins";
 
 /* No comment provided by engineer. */
+"Post-order" = "Post-order";
+
+/* No comment provided by engineer. */
+"Pre-order" = "Pre-order";
+
+/* No comment provided by engineer. */
 "Prefer Main Executable" = "Prefer Main Executable";
 
 /* No comment provided by engineer. */
 "Rebuild Icon Cache" = "Rebuild Icon Cache";
 
 /* No comment provided by engineer. */
+"Record your phone calls like never before." = "Record your phone calls like never before.";
+
+/* No comment provided by engineer. */
+"Reveil" = "Reveil";
+
+/* No comment provided by engineer. */
 "Search Patched…" = "Search Patched…";
 
 /* No comment provided by engineer. */
 "Search…" = "Search…";
+
+/* No comment provided by engineer. */
+"Select an application to view details." = "Select an application to view details.";
 
 /* No comment provided by engineer. */
 "Select Application to Inject" = "Select Application to Inject";
@@ -122,10 +209,25 @@
 "Source Code" = "Source Code";
 
 /* No comment provided by engineer. */
+"System" = "System";
+
+/* No comment provided by engineer. */
+"The content of text file “%@” is empty." = "The content of text file “%@” is empty.";
+
+/* No comment provided by engineer. */
 "TrollFools" = "TrollFools";
 
 /* No comment provided by engineer. */
+"TrollRecorder" = "TrollRecorder";
+
+/* No comment provided by engineer. */
+"TrollStore" = "TrollStore";
+
+/* No comment provided by engineer. */
 "TrollStore Applications" = "TrollStore Applications";
+
+/* No comment provided by engineer. */
+"Unable to locate the data archive in the Debian package." = "Unable to locate the data archive in the Debian package.";
 
 /* No comment provided by engineer. */
 "Unlock Version" = "Unlock Version";
@@ -134,7 +236,16 @@
 "Use Weak Reference" = "Use Weak Reference";
 
 /* No comment provided by engineer. */
+"User" = "User";
+
+/* No comment provided by engineer. */
 "User Applications" = "User Applications";
 
 /* No comment provided by engineer. */
+"View Logs" = "View Logs";
+
+/* No comment provided by engineer. */
 "You need to rebuild the icon cache in TrollStore to apply changes." = "You need to rebuild the icon cache in TrollStore to apply changes.";
+
+/* No comment provided by engineer. */
+"You’ve selected at least one Debian Package “%@”. We’re here to remind you that it will not work as it was in a jailbroken environment. Please make sure you know what you’re doing." = "You’ve selected at least one Debian Package “%@”. We’re here to remind you that it will not work as it was in a jailbroken environment. Please make sure you know what you’re doing.";

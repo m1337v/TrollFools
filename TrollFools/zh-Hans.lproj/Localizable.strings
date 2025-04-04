@@ -1,20 +1,59 @@
 /* No comment provided by engineer. */
 "%@ exited with code %d" = "%@ 意外退出，返回值 %d";
 
+/* StripedTextTableViewController */
+"%@ rows not loaded" = "%@ 行未加载";
+
 /* No comment provided by engineer. */
 "%@ terminated with signal %d" = "%@ 意外终止，未捕获的信号 %d";
+
+/* No comment provided by engineer. */
+"%ld Plug-Ins of “%@”" = "“%2$@” 的 %1$ld 个插件";
 
 /* No comment provided by engineer. */
 "Advanced Settings" = "高级选项";
 
 /* No comment provided by engineer. */
-"And %d more unsupported user applications." = "另有 %d 个不支持的用户应用";
+"Advertisement" = "广告";
+
+/* No comment provided by engineer. */
+"All" = "所有应用";
+
+/* No comment provided by engineer. */
+"All Applications" = "所有应用";
+
+/* No comment provided by engineer. */
+"And %d more unsupported user applications." = "另有 %d 个不支持的用户应用。";
+
+/* No comment provided by engineer. */
+"Bringing back the most advanced system and security analysis tool." = "最强大的系统和安全分析工具，再次归来。";
+
+/* StripedTextTableViewController */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Cannot parse text with UTF-8 encoding: “%@”." = "无法使用 UTF-8 编码解析文本：“%@”。";
 
 /* No comment provided by engineer. */
 "Completed" = "已完成";
 
+/* StripedTextTableViewController */
+"Confirm" = "确认";
+
+/* No comment provided by engineer. */
+"Continue" = "继续";
+
+/* No comment provided by engineer. */
+"Continue and Don’t Show Again" = "继续且不再提示";
+
+/* StripedTextTableViewController */
+"Copy" = "拷贝";
+
 /* No comment provided by engineer. */
 "Copyright" = "版权所有";
+
+/* StripedTextTableViewController */
+"Do you want to clear this log file “%@”?" = "你确定要清空日志文件 “%@” 吗？";
 
 /* No comment provided by engineer. */
 "Done" = "完成";
@@ -29,10 +68,19 @@
 "Error" = "错误";
 
 /* No comment provided by engineer. */
+"Export" = "导出";
+
+/* No comment provided by engineer. */
+"Export All" = "全部导出";
+
+/* No comment provided by engineer. */
 "Failed" = "失败";
 
 /* No comment provided by engineer. */
 "Failed to find entry CFBundleExecutable in: %@" = "找不到 %@ 中的 CFBundleExecutable。";
+
+/* No comment provided by engineer. */
+"Failed to find entry CFBundleIdentifier in: %@" = "找不到 %@ 中的 CFBundleIdentifier";
 
 /* No comment provided by engineer. */
 "Failed to locate main executable: %@" = "找不到主要可执行文件：%@";
@@ -41,7 +89,13 @@
 "Failed to parse: %@" = "无法解析：%@";
 
 /* No comment provided by engineer. */
+"Fast" = "快速";
+
+/* No comment provided by engineer. */
 "Filza (URL Scheme) Not Installed" = "未安装支持 URL Scheme 的 Filza";
+
+/* No comment provided by engineer. */
+"Hide" = "Hide";
 
 /* No comment provided by engineer. */
 "If you do not know what these options mean, please do not change them." = "如果你不知道这些选项的含义，请不要更改。";
@@ -62,13 +116,28 @@
 "Injection" = "注入";
 
 /* No comment provided by engineer. */
+"Injection Strategy" = "注入策略";
+
+/* No comment provided by engineer. */
 "Launch" = "启动";
+
+/* No comment provided by engineer. */
+"Lexicographic" = "字典序";
 
 /* No comment provided by engineer. */
 "Lock Version" = "锁定版本";
 
+/* StripedTextTableViewController */
+"Log Viewer" = "日志查看器";
+
 /* No comment provided by engineer. */
 "Made with ♥ by OwnGoal Studio" = "「乌龙工作室」倾情献制";
+
+/* No comment provided by engineer. */
+"No Applications" = "没有找到符合条件的应用程序";
+
+/* No comment provided by engineer. */
+"No dylib found in the Debian package." = "在 Debian 软件包中找不到可以注入的插件。";
 
 /* No comment provided by engineer. */
 "No eligible framework found." = "没有找到符合条件的框架。";
@@ -83,6 +152,9 @@
 "No valid plug-ins found." = "没有找到有效的插件。";
 
 /* No comment provided by engineer. */
+"Notice" = "提示";
+
+/* No comment provided by engineer. */
 "Only removable system applications are eligible and listed." = "仅列出可移除的系统应用，其他系统应用不支持注入。";
 
 /* No comment provided by engineer. */
@@ -95,16 +167,31 @@
 "Plug-Ins" = "插件列表";
 
 /* No comment provided by engineer. */
+"Post-order" = "后置";
+
+/* No comment provided by engineer. */
+"Pre-order" = "前置";
+
+/* No comment provided by engineer. */
 "Prefer Main Executable" = "优先处理主要可执行文件";
 
 /* No comment provided by engineer. */
 "Rebuild Icon Cache" = "重建图标缓存";
 
 /* No comment provided by engineer. */
+"Record your phone calls like never before." = "通话录音，从未如此简单。";
+
+/* No comment provided by engineer. */
+"Reveil" = "Reveil";
+
+/* No comment provided by engineer. */
 "Search Patched…" = "搜索 已注入…";
 
 /* No comment provided by engineer. */
 "Search…" = "搜索…";
+
+/* No comment provided by engineer. */
+"Select an application to view details." = "选择一个应用程序以查看详情。";
 
 /* No comment provided by engineer. */
 "Select Application to Inject" = "选择应用程序进行注入";
@@ -122,10 +209,25 @@
 "Source Code" = "获取源代码";
 
 /* No comment provided by engineer. */
-"TrollFools" = "TrollFools";
+"System" = "系统应用";
 
 /* No comment provided by engineer. */
-"TrollStore Applications" = "巨魔商店应用";
+"The content of text file “%@” is empty." = "文本文件 “%@” 的内容为空。";
+
+/* No comment provided by engineer. */
+"TrollFools" = "巨魔注入器";
+
+/* No comment provided by engineer. */
+"TrollRecorder" = "巨魔录音机";
+
+/* No comment provided by engineer. */
+"TrollStore" = "巨魔应用";
+
+/* No comment provided by engineer. */
+"TrollStore Applications" = "巨魔应用";
+
+/* No comment provided by engineer. */
+"Unable to locate the data archive in the Debian package." = "无法在 Debian 软件包中找到数据归档。";
 
 /* No comment provided by engineer. */
 "Unlock Version" = "解锁版本";
@@ -134,7 +236,16 @@
 "Use Weak Reference" = "创建弱引用";
 
 /* No comment provided by engineer. */
+"User" = "用户应用";
+
+/* No comment provided by engineer. */
 "User Applications" = "用户应用";
 
 /* No comment provided by engineer. */
+"View Logs" = "查看日志";
+
+/* No comment provided by engineer. */
 "You need to rebuild the icon cache in TrollStore to apply changes." = "你需要在 TrollStore 中重建图标缓存以应用更改。";
+
+/* No comment provided by engineer. */
+"You’ve selected at least one Debian Package “%@”. We’re here to remind you that it will not work as it was in a jailbroken environment. Please make sure you know what you’re doing." = "你至少选择了一个 Debian 软件包 “%@”。请留意，它通常不会像在越狱环境当中那样工作，甚至完全不起作用。请确保你知道自己在做些什么。";
